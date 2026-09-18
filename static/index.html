@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>AI Customer Support Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div>
+                <span class="label">RAG CUSTOMER SUPPORT</span>
+                <h1>AI Customer Support Agent</h1>
+                <p>
+                    FastAPI · LangChain · Gemini · ChromaDB
+                </p>
+            </div>
+
+            <div id="status" class="status checking">
+                ● Checking
+            </div>
+        </header>
+
+        <main id="chat" class="chat">
+            <div class="message assistant">
+                <div class="bubble">
+                    Hello! I'm your AI customer support agent.
+                    Ask me about accounts, orders, shipping, returns,
+                    payments, or security.
+                </div>
+            </div>
+        </main>
+
+        <div class="suggestions">
+            <button data-question="How long does standard shipping take?">
+                Shipping
+            </button>
+
+            <button data-question="How can I reset my password?">
+                Password
+            </button>
+
+            <button data-question="What is the return policy?">
+                Returns
+            </button>
+
+            <button data-question="What information should I never share with support?">
+                Security
+            </button>
+        </div>
+
+        <form id="chat-form" class="composer">
+            <textarea
+                id="question"
+                maxlength="2000"
+                placeholder="Ask your customer-support question..."
+                required
+            ></textarea>
+
+            <button id="send" type="submit">
+                Send
+            </button>
+        </form>
+
+        <footer>
+            <button id="clear">Clear conversation</button>
+            <span id="meta">Ready</span>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

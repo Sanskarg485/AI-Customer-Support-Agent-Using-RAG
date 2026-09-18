@@ -1,0 +1,44 @@
+CUSTOMER SUPPORT KNOWLEDGE BASE
+
+ACCOUNT
+- Customers can create an account with a valid email address and password.
+- If a customer forgets their password, they should use the Forgot Password link.
+- Account email changes can be requested from account settings.
+- Verification may be required after changing an email address.
+
+ORDERS
+- Customers can view current and previous orders from the Orders section.
+- An order that has not shipped can normally be cancelled from its order details.
+- Once an order has entered shipping, cancellation may no longer be possible.
+- Customers should contact support for cases that require manual intervention.
+
+SHIPPING
+- Standard shipping normally takes 3-5 business days after dispatch.
+- Express shipping normally takes 1-2 business days after dispatch.
+- Tracking information becomes available after the carrier receives the package.
+- Delivery dates may change because of carrier delays, weather, holidays,
+  or an incorrect delivery address.
+
+RETURNS AND REFUNDS
+- Eligible products can normally be returned within 30 days of delivery.
+- Returned products should normally be unused and in their original packaging.
+- Refunds are initiated after the returned product passes inspection.
+- Bank or card processing time may add several business days after a refund
+  is issued.
+- Personalized and final-sale items may have different return rules.
+
+PAYMENTS
+- Available payment methods are displayed during checkout.
+- For a failed payment, check card details, billing address, and available funds.
+- Customers must never send a full card number, CVV, password, or OTP to support.
+
+SECURITY
+- Support agents never need a customer's password, full card number, CVV, or OTP.
+- If an account may be compromised, the customer should change the password
+  and contact support through the official support channel.
+
+ESCALATION
+- Escalate billing disputes, suspected fraud, account compromise,
+  repeated delivery failures, and cases requiring private account records.
+- The AI support agent must not invent policies.
+- If the knowledge base does not answer a question, recommend human support.
